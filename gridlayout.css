@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 35% 55% 10%;
+    grid-template-areas: 'hello'
+'name' 'empty';
+    height: 250px;
+    width: 350px;
+}
+#top {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 25px 25px 0px 0px;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+}
+#mid {
+    background-color: white;
+     color: black;
+     font-family: Arial;
+     font-size: 75px;
+}
+#low {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 0px 0px 25px 25px;
+  }
+ .grid-item{
+     display: grid;
+     align-items: center;
+     justify-items: center;
+ }
+.item1 {
+    grid-area: hello;
+}
+.item2 {
+    grid-area: name;
+}
+.item3 {
+    grid-area: empty;
+}
+
